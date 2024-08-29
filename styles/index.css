@@ -1,0 +1,33 @@
+h2 {
+  color: coral;
+}
+h3 {
+   color: green;
+}
+h4 {
+  color: dodgerblue;
+}
+
+/*This is a single line comment*/
+
+/*This comment
+takes up
+multiple wors*/
+#seconde-paragraph {
+  color: purple;
+}
+
+p {
+  color: blue;
+  color: pink;
+  color: blueviolet;
+}
+
+.cat-info, .last-paragraph {
+  color: pink;
+}
+
+#last-paragraph {
+  color: blueviolet;
+}
+
