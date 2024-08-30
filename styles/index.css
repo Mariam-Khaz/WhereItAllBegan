@@ -1,33 +1,82 @@
-h2 {
-  color: coral;
+h1 {
+
+}
+  
+  h2 {
+  color: rgb(246, 66, 198);
+  font-size: 48px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(228, 178, 217);
 }
 h3 {
-   color: green;
+   color: rgb(246, 66, 198);
+   font-size: 30px;
+   text-align: center;
 }
-h4 {
-  color: dodgerblue;
-}
+
 
 /*This is a single line comment*/
 
 /*This comment
 takes up
 multiple wors*/
-#seconde-paragraph {
-  color: purple;
+
+.my-joke {
+  color: pink;
 }
 
 p {
-  color: blue;
+
+  color: purple;
   color: pink;
-  color: blueviolet;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+li {
+  color: darkorchid;
 }
 
 .cat-info, .last-paragraph {
   color: pink;
+  font-size: 42px;
+  font-weight: 300;
+  background-color: rgb(143, 9, 143, 0.6);
 }
 
 #last-paragraph {
-  color: blueviolet;
+  font-size: 35px;
+
+  color: rgb(226, 43, 223);
 }
 
+
+
+body {
+  background-image: url(../images/Sunset.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+  background: url(../images/Sunset.jpg), no-repeat, fixed, center, cover;
+}
+
+img {
+  border-width: 5px;
+  border-style: solid;
+  border-color:rgb(139, 84, 168);
+  border: 5px solid rgb(139, 84, 168)
+  border-top: 5px solid rgb(170, 114, 133);
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: 10px 10px 20px pink;
+}
+
+.contact-info, .phone-number, .email {
+  color: aqua;
+}
