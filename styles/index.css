@@ -1,7 +1,16 @@
 h1 {
 
 }
-  
+
+/*.world-stuff {
+  text-align: right;
+}
+
+.world-stuff, p, body {
+  text-align: right;
+}
+*/
+
   h2 {
   color: rgb(246, 66, 198);
   font-size: 48px;
@@ -17,6 +26,7 @@ h3 {
 }
 
 
+
 /*This is a single line comment*/
 
 /*This comment
@@ -28,7 +38,6 @@ multiple wors*/
 }
 
 p {
-
   color: purple;
   color: pink;
 }
@@ -40,6 +49,36 @@ ul {
 
 li {
   color: darkorchid;
+}
+
+.ma-gatos {
+  width: 100%;
+  height: 100%;
+  border-width: 5px;
+}
+
+.text-box {
+  display: inline-block;
+  overflow: auto;
+  max-height: 100px;
+  max-width: 200px;
+  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 0%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color:rgb(139, 84, 168);
+  border: 5px solid rgb(139, 84, 168)
+  border-top: 5px solid rgb(170, 114, 133);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 20px pink;
 }
 
 .cat-info, .last-paragraph {
@@ -73,10 +112,31 @@ img {
   border-color:rgb(139, 84, 168);
   border: 5px solid rgb(139, 84, 168)
   border-top: 5px solid rgb(170, 114, 133);
-  border-radius: 5px 10px 15px 20px;
+  border-radius: 10px 10px 10px 10px;
   box-shadow: 10px 10px 20px pink;
 }
 
 .contact-info, .phone-number, .email {
   color: aqua;
+}
+
+/* .text-box::before {
+  content: "out of ideas";
+} */
+
+button {
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+font-weight: bold;
+line-height: 2;
+background-color:fuchsia;
+color: black;
+padding: 5px;
+cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
+  color: black;
 }
