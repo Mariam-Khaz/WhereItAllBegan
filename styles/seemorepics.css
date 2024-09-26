@@ -5,9 +5,9 @@ body {
   font-family:cursive;
   font-size: large;
 }
-h1, h2 {
+h1, h2, h3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   animation: bounce;
   animation-duration: 1.5s;
 }
@@ -44,6 +44,11 @@ h3 {
 }
 
 .Crown-Icon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.lifetime {
   margin-right: 10px;
   margin-left: 10px;
 }
