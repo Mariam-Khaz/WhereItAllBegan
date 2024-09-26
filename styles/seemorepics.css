@@ -19,26 +19,23 @@ h1, h2 {
 }
 
 
-    /* display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: bounce; referring directly to the animation's @keyframe declaration
-    animation-duration: 2s; */
-
-
 
 .block-image {
   align-items: baseline;
   justify-content: space-around;
   border-radius: 150px;
+  animation: imgTwist 2s infinite; 
 }
 
 .outblock-image {
   display: flex;
   justify-content: center;
+  animation: imgBeat infinite;
 }
+
 .outblock-image1 {
   border-radius: 300px;
+
 }
 
 h3 {
@@ -51,11 +48,16 @@ h3 {
   margin-left: 10px;
 }
 
-@keyframes outblock-image1{
+@keyframes imgTwist {
   0% { transform: scale(1) rotate(0deg);}
   50% {transform: scale(1.1) rotate(15deg);}
   100% {transform: scale(1) rotate(0deg);}
 }
+
+/* @keyframes imgBeat {
+
+} */
+
 
 /* 
 animate_animated
